@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&family=Ubuntu:wght@300;400;700&display=swap');
+
+h5{
+    color:rgb(237 27 36) ;
+}
+main{
+    padding-top: 60px;
+    
+    
+}
+/*.bg{
+    background: url(img/bg2.jpg);
+    background-size: 100% 100%;
+}*/
+
+.d-block{
+    width:80vw;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.title{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.first-box{
+    display: flex;
+    padding-bottom: 30px;
+}
+
+.image{
+    width: 100px;
+}
+.second-box{
+    display: flex;
+    background-color: rgb(47 49 51);
+    padding-top: 10px;
+    padding-bottom: 40px;
+    
+}
+.inbox{
+    margin-right: auto;
+    margin-left: auto;
+}
+.card{
+    margin-top: 20px;
+    background-color: rgb(240, 240, 240);
+    width: 21rem;
+    border-width: 2px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.card-title{
+    color: black;
+}
+
+@media (max-width: 1200px){
+    .d-block{
+        width: 90vw;
+    }
+}
+
+@media (max-width: 600px){
+    
+    .d-block{
+        width: 95vw;
+    }
+    .first-box{
+        display:block;
+    }
+    .second-box{
+        display: block;
+        background-color: rgb(51, 50, 50);
+    }
+    .card{
+        width: 80vw;
+        border-radius: 10px;
+    }
+}
